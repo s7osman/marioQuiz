@@ -1,0 +1,178 @@
+//palette: BRANCH ALMOND:$whiteish RICH BLACK 001524 MING GREEN 15616D AMBE ORANGE FF7D00
+
+body {
+    background-color: $whiteish;
+    font-size: 62.5%;
+}
+
+.wrapper {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+h1 {
+    @include bigFonts(5.7rem, 2px);
+    color: $blackish;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+h1 span {
+    color: $greenish;
+}
+
+img {
+    width: 15%;
+    margin-bottom: 50px;
+}
+
+h2 {
+    @include bigFonts(2rem, 2px);
+    color: $blackish;
+}
+
+header h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+h2 span a {
+    @include bigFonts(2.3rem, 2px);
+    color: $orangeish;
+    text-decoration: none;
+}
+
+h2 span a:hover,
+h2 span a:focus {
+    color: $greenish;
+}
+
+
+
+.quiz1 {
+    // background: #FF7D00;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+h3 {
+    @include bigFonts(4rem, 7px);
+    text-align: center;
+    color: $blackish;
+    margin-top: 0px;
+    margin-bottom: 27px;
+}
+
+h4 {
+    @include bigFonts(2.5rem, 2px);
+    color: $blackish;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quiz1 h4 {
+    width: 104%;
+    margin-bottom: 27px;
+    line-height: 62px;
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: center;
+}
+
+label {
+    @include lilFonts(1.9rem);
+    color: $blackish;
+    margin-left: 15px;
+}
+
+input[type=radio] {
+    height: 3em;
+    border: none;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.question1,
+.question2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+
+button {
+    color: $blackish;
+    background: $orangeish;
+    border: 16px solid $orangeish;
+    border-radius: 50%;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    width: 35%;
+    font-size: 2rem;
+
+
+
+}
+button a {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: $blackish;
+    @include bigFonts(2rem, 2px)
+}
+
+button:hover,
+button:focus {
+    background: $greenish;
+    border: 16px solid $greenish;
+}
+
+button a:hover
+button a:focus {
+    color: $blackish;
+
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.quiz3 button {
+    margin-bottom: 100px;
+}
+
+input[type=submit] {
+    color: $blackish;
+    background: $orangeish;
+    border: 16px solid $orangeish;
+    border-radius: 46%;
+    @include bigFonts(2rem, 0)
+}
+
+input[type=submit]:hover,
+input[type=submit]:focus {
+    color: $blackish;
+    background: $greenish;
+    border: 16px solid $greenish;
+    border-radius: 46%;
+}
+

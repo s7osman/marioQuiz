@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Signika:400" rel="stylesheet">
+    <title>Mario Quiz</title>
+</head>
+<body>
+    <header class="wrapper">
+        <h1>
+            Which super <span>mario</span> character are you?
+        </h1>
+        <img src="./images/noun_mario_1204817.png" alt="black and white mario icon">
+        <h2> Click <span><a href ='#quiz_1'>Start</a></span> to begin the quiz</h2>
+        <!-- <button><a href="#">Start</a></button> -->
+        <!-- <h3> Click start to begin the quiz</h3> -->
+    </header>
+    <main>
+        <section class="quiz1" id="quiz_1">
+            <div class="wrapper question1">
+                <form action="">
+                    <fieldset>
+                        <h3> Question 1</h3>
+                        <h4>You hear screams coming from a dark cave! What do you do?</h4>
+                        <div>
+                            <input type="radio" name="bravery" id="mario1" value="mario">
+                            <label for="Save">Run in and save them!</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="bravery" id="luigi1" value="luigi">
+                            <label for="Save">Run away! Far Away!</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="bravery" id="bowser1" value="bowser">
+                            <label for="Save">I'm already in the cave! They're my prisoner and I love to hear their screams</label>
+                        </div>
+                        <button><a href="#quiz_2">Next Question</a></button>
+                    </fieldset>
+                    <h3 id="quiz_2"> Question 2</h3>
+                    <h4>Your friend Falls behind during a race! What do you do?</h4>
+                    <fieldset class="quiz2">
+                        <div>
+                            <input type="radio" name="loyalty" id="mario2" value="mario">
+                            <label for="loyal">Keep going! We can't let evil win!</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="loyalty" id="luigi2" value="luigi">
+                            <label for="loyal">Turn back and Help!</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="loyalty" id="bowser2" value="bowser">
+                            <label for="loyal">Why help? I sabtaoged them! BwAHAHAHA!</label>
+                        </div>
+                        <button><a href="#quiz_3">Next Question</a></button>
+                    </fieldset>
+                    <h3 id="quiz_3"> Question 3</h3>
+                    <h4>Do you find new, never before places fun?</h4>
+                    <fieldset class="quiz3">
+                        <div>
+                            <input type="radio" name="adventure" id="mario3" value="mario">
+                            <label for="advanture">Yes! Always ready for an adventure</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="adventure" id="luigi3" value="luigi">
+                            <label for="adventure">No thank you, I'll just watch my friends go </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="adventure" id="bowser3" value="bowser">
+                            <label for="adventure">Conquering new places is always a blast! BWAHAH!</label>
+                        </div>
+                        <button><a href="#quiz_4">Next Question</a></button>
+                    </fieldset>
+                    <h3 id="quiz_4" > Question 4</h3>
+                    <h4>You just came in last place after a race. How do you feel?</h4>
+                    <fieldset class="quiz4">
+                        <div>
+                            <input type="radio" name="adventure" id="mario3" value="mario">
+                            <label for="advanture">Optimistic! I know I'll Win next time!</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="adventure" id="luigi3" value="luigi">
+                            <label for="adventure">As long as my friends win, I'm happy..</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="adventure" id="bowser3" value="bowser">
+                            <label for="adventure">LAST PLACE?! I'M ENRAGED!!</label>
+                        </div>
+                        <input type="submit" value="FINISHED">
+                    </fieldset>
+                    
+                </form>
+                <img src="./images/noun_star mario bros_2435464.png" alt="mario tube">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

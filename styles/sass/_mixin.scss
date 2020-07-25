@@ -1,0 +1,20 @@
+@mixin bigFonts($fontSize, $lSpace) {
+    font-size: $fontSize;
+    letter-spacing: $lSpace;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+}
+
+@mixin lilFonts($fontSize) {
+    font-size:$fontSize;
+    font-family: 'Signika', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+@mixin buttonLife {
+    color: #001524;
+    background: #FF7D00;
+    border: 16px solid #FF7D00;
+    border-radius: 50%;
+}
